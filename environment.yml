@@ -9,6 +9,8 @@ dependencies:
   - pyarrow
 
   # Basics
+  - pandas
+  - matplotlib
   - numpy
   - requests
   - tqdm
