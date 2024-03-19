@@ -1,0 +1,15 @@
+name: rovireq
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.10.*
+
+  # Storage using parquet
+  - pyarrow
+
+  # Basics
+  - numpy
+  - requests
+  - tqdm
+  - jupyterlab
