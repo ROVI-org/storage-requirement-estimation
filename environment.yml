@@ -8,6 +8,9 @@ dependencies:
   # Storage using parquet
   - pyarrow
 
+  # Storage using PostgreSQL
+  - postgresql
+
   # Basics
   - pandas
   - matplotlib
@@ -15,3 +18,7 @@ dependencies:
   - requests
   - tqdm
   - jupyterlab
+
+  - pip
+  - pip:
+    - psycopg[binary]
