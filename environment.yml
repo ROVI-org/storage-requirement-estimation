@@ -21,4 +21,5 @@ dependencies:
 
   - pip
   - pip:
+    - papermill
     - psycopg[binary]
